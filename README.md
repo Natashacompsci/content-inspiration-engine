@@ -65,7 +65,3 @@ pnpm run lint
 # and
 pnpm build
 ```
-
-## Notes
-- I removed old "v0" project references and updated package name and metadata.
-- After installing dependencies, consider removing the `// @ts-nocheck` line in `app/layout.tsx` so TypeScript can use installed types.
