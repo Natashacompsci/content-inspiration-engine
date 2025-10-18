@@ -43,7 +43,6 @@ pnpm start
 Create a `.env.local` at the project root with the following variables (example):
 
 ```
-OPENAI_API_KEY=sk-...
 PERPLEXITY_API_KEY=your-perplexity-key
 ```
 
