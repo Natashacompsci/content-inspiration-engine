@@ -57,10 +57,6 @@ Key points about the integration:
 - Responses from Perplexity are parsed and combined with the project's idea generation logic (e.g., formatting, deduplication) before returning JSON to the client.
 - Keep API keys secret — never commit `.env.local` to source control.
 
-If you want me to, I can:
-- Add an example `.env.local.example` file.
-- Show or refactor the exact code in `app/api/generate-ideas/route.ts` that calls Perplexity for clearer documentation.
-
 ## Linting & type checks
 Run the project's lint and type checks locally after installing dependencies:
 
@@ -73,6 +69,3 @@ pnpm build
 ## Notes
 - I removed old "v0" project references and updated package name and metadata.
 - After installing dependencies, consider removing the `// @ts-nocheck` line in `app/layout.tsx` so TypeScript can use installed types.
-
----
-If you want the README expanded (examples, API schema, request/response samples), tell me what you'd like included.
